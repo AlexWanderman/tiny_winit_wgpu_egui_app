@@ -1,0 +1,15 @@
+[package]
+name = "tiny_winit_wgpu_egui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.31.0"
+egui-wgpu = "0.31.0"
+egui-winit = "0.31.0"
+log = "0.4.25"
+pollster = "0.4.0"
+raw-window-handle = "0.6.2"
+simple_logger = "5.0.0"
+wgpu = "24.0.1"
+winit = "0.30.9"
